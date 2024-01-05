@@ -1,0 +1,63 @@
+html {
+    min-height: 100%;
+    background: linear-gradient(0deg, #E38B29,#F1A661);
+  }
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace, "Times New Roman", sans-serif;
+    font-size: 40px;
+    text-decoration: underline ;
+}
+
+#dean {
+    display: block;
+    margin:auto;
+    height: auto;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+ul {
+    display: flex; /* Makes the ul a flex container */
+    flex-direction: column; /* Aligns list items vertically */
+    align-items: center; /* Centers items horizontally */
+    padding: 0; /* Removes default padding */
+    
+}
+/* Styling individual list items */
+li {
+    background: linear-gradient(-90deg, #f1a661, #f1a763, #f2ab67, #f4af6d, #f5b576, #f7bc7f, #f9c389, #fbc992, #fccf9b, #fed4a2, #ffd7a7, #ffd8a9);    
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 1000px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    height: 60px;
+    display: flex; /* Using flexbox for alignment */
+}
+
+/* Styling anchor tags */
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    
+    justify-content: space-between; /* Distributes space between items */
+    display: flex; /* Using flexbox for alignment */
+    align-items: center; /* Aligns items vertically */
+    width: 100%; /* Sets width to 50% to ensure it takes up half the space */
+    padding-left: 20px; /* Adds padding to the left */
+}
+
+/* Styling cooking time */
+.cook-time {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(235, 235, 235);
+    padding-right: 20px; /* Adds padding to the right */
+}
+
